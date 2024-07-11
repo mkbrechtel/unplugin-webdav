@@ -26,37 +26,37 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./astro": {
+    "./plugins/astro": {
       "types": "./dist/astro.d.ts",
       "import": "./dist/astro.js",
       "require": "./dist/astro.cjs"
     },
-    "./rspack": {
+    "./plugins/rspack": {
       "types": "./dist/rspack.d.ts",
       "import": "./dist/rspack.js",
       "require": "./dist/rspack.cjs"
     },
-    "./vite": {
+    "./plugins/vite": {
       "types": "./dist/vite.d.ts",
       "import": "./dist/vite.js",
       "require": "./dist/vite.cjs"
     },
-    "./webpack": {
+    "./plugins/webpack": {
       "types": "./dist/webpack.d.ts",
       "import": "./dist/webpack.js",
       "require": "./dist/webpack.cjs"
     },
-    "./rollup": {
+    "./plugins/rollup": {
       "types": "./dist/rollup.d.ts",
       "import": "./dist/rollup.js",
       "require": "./dist/rollup.cjs"
     },
-    "./esbuild": {
+    "./plugins/esbuild": {
       "types": "./dist/esbuild.d.ts",
       "import": "./dist/esbuild.js",
       "require": "./dist/esbuild.cjs"
     },
-    "./nuxt": {
+    "./plugins/nuxt": {
       "types": "./dist/nuxt.d.ts",
       "import": "./dist/nuxt.js",
       "require": "./dist/nuxt.cjs"
