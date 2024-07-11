@@ -19,15 +19,15 @@ jobs:
         with:
           node-version: 16.x
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: yarn install --frozen-lockfile
 
-      - name: Lint
-        run: nr lint
+      - name: Build
+        run: yarn build
 
+      - name: Test
+        run: yarn test
+    
   test:
     runs-on: ${{ matrix.os }}
 
@@ -44,14 +44,11 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: yarn install --frozen-lockfile
 
       - name: Build
-        run: nr build
+        run: yarn build
 
       - name: Test
-        run: nr test
+        run: yarn test
