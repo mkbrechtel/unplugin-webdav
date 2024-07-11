@@ -1,8 +1,8 @@
 {
-  "name": "unplugin-starter",
+  "name": "unplugin-webdav",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "yarn@1.22.19",
   "description": "",
   "license": "MIT",
   "homepage": "https://github.com/antfu/unplugin-starter#readme",
