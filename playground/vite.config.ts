@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite'
-import Inspect from 'vite-plugin-inspect'
-import Webdav from '../src/vite'
+import inspect from 'vite-plugin-inspect'
+import webdav from '../src/plugins/vite'
 
 export default defineConfig({
   plugins: [
-    Inspect(),
-    Webdav(),
+    inspect(),
+    webdav({
+    }),
   ],
 })
